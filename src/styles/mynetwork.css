@@ -1,0 +1,113 @@
+.network-container {
+    display: flex;
+    gap: 30px;
+    padding: 40px 80px;
+  }
+  
+  .sidebar {
+    width: 300px;
+    background-color: #512da8;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .sidebar h4 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 12px 0;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+  }
+  
+  .sidebar ul li span {
+    color: #ffeb3b;
+  }
+  
+  .content {
+    flex: 1;
+    background-color: #673ab7;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .tabs button {
+    padding: 10px 25px;
+    background-color: #4527a0;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .tabs button.active-tab {
+    background-color: #ffeb3b;
+    color: #000;
+  }
+  
+  .invitations-section {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+  }
+  
+  .invite-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #9575cd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .invite-details p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .invite-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .ignore-btn,
+  .accept-btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .ignore-btn {
+    background-color: #bdbdbd;
+    color: black;
+  }
+  
+  .accept-btn {
+    background-color: #00c853;
+    color: white;
+  }
+  

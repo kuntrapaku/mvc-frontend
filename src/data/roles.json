@@ -1,0 +1,92 @@
+[
+    {
+        "title": "Producer",
+        "description": "Manages the entire production process of the film, including hiring the cast and crew, overseeing finances, and ensuring timely delivery of the project. They act as the bridge between the creative team and the production team.",
+        "duties": "Coordinate between departments, secure financing for the project, resolve production challenges.",
+        "name": "John Doe",
+        "contact": "john.doe@example.com",
+        "location": "Hyderabad, India",
+        "industry": "TFI"
+    },
+    {
+        "title": "Screenwriter",
+        "description": "Writes the script for the film, including dialogs, plot points, and character arcs. Works closely with directors and producers to ensure the script aligns with the creative vision.",
+        "duties": "Draft initial scripts, make revisions based on feedback, adapt stories from books or existing media.",
+        "name": "Emily Smith",
+        "contact": "emily.smith@example.com",
+        "location": "Mumbai, India",
+        "industry": "HFI"
+    },
+    {
+        "title": "Lead Actor",
+        "description": "Plays the protagonist or primary character in the film. Collaborates with the director to bring the character to life and deliver emotionally resonant performances.",
+        "duties": "Attend rehearsals, memorize lines, perform stunts when necessary.",
+        "name": "Michael Johnson",
+        "contact": "michael.johnson@example.com",
+        "location": "Hyderabad, India",
+        "industry": "KFI"
+    },
+    {
+        "title": "Supporting Actor",
+        "description": "Plays a secondary role in the film, complementing the lead actor's performance. Often provides key emotional or narrative support in the story.",
+        "duties": "Perform supporting roles, assist in developing subplots, maintain on-set decorum.",
+        "name": "Samantha Lee",
+        "contact": "samantha.lee@example.com",
+        "location": "London, UK",
+        "industry": "ENGLISH"
+    },
+    {
+        "title": "Cinematographer",
+        "description": "Directs the photography and visual style of the film. Works with the director to capture scenes that align with the narrative tone and creative vision.",
+        "duties": "Operate cameras, set up lighting equipment, oversee camera crew.",
+        "name": "Robert Brown",
+        "contact": "robert.brown@example.com",
+        "location": "Chennai, India",
+        "industry": "TFI"
+    },
+    {
+        "title": "Editor",
+        "description": "Assembles and edits the film footage into a cohesive final product. Works closely with the director to decide pacing, transitions, and sequencing of scenes.",
+        "duties": "Organize raw footage, use editing software, collaborate on creative decisions.",
+        "name": "Laura Wilson",
+        "contact": "laura.wilson@example.com",
+        "location": "Los Angeles, CA, USA",
+        "industry": "HFI"
+    },
+    {
+        "title": "Composer",
+        "description": "Creates original music scores that enhance the emotional and narrative elements of the film. Often collaborates with sound designers and directors to ensure the music complements the visuals.",
+        "duties": "Compose musical pieces, record and arrange music, conduct orchestras if required.",
+        "name": "Daniel Martinez",
+        "contact": "daniel.martinez@example.com",
+        "location": "Mumbai, India",
+        "industry": "KFI"
+    },
+    {
+        "title": "Casting Director",
+        "description": "Chooses and auditions actors for various roles in the film. They work closely with the director and producers to ensure the cast aligns with the creative vision of the project.",
+        "duties": "Organize casting calls, review audition tapes, negotiate contracts.",
+        "name": "Sarah Johnson",
+        "contact": "sarah.johnson@example.com",
+        "location": "New York, USA",
+        "industry": "ENGLISH"
+    },
+    {
+        "title": "Production Designer",
+        "description": "Designs the sets and visuals of the film, including props, furniture, and overall visual aesthetics. Works with the director and cinematographer to create the desired look.",
+        "duties": "Design sets, coordinate with set builders, maintain visual continuity.",
+        "name": "Anthony Green",
+        "contact": "anthony.green@example.com",
+        "location": "Hyderabad, India",
+        "industry": "TFI"
+    },
+    {
+        "title": "Costume Designer",
+        "description": "Designs clothing and costumes for the film's characters. Ensures costumes align with the story's setting, period, and character traits.",
+        "duties": "Sketch designs, source materials, oversee costume fittings.",
+        "name": "Emma Davis",
+        "contact": "emma.davis@example.com",
+        "location": "London, UK",
+        "industry": "HFI"
+    }
+]

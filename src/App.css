@@ -1,0 +1,182 @@
+/* General Styles */
+body {
+  background-color: #800080 !important; /* Purple background for the entire app */
+  color: #ffffff !important; /* White text */
+  font-family: 'Arial', sans-serif; /* Default font */
+  margin: 0;
+  padding: 0;
+}
+
+/* Links */
+a {
+  color: #d1c4e9 !important; /* Light purple links */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff !important; /* White links on hover */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #673ab7 !important; /* Dark purple for the navbar */
+  color: #ffffff !important;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .navbar-nav .nav-link,
+.navbar-brand,
+.search-btn,
+.auth-btn {
+  color: #ffffff !important;
+  background-color: #673ab7 !important;
+  font-weight: bold;
+  font-size: 12px; /* Reduced font size for better readability */
+  padding: 8px 16px; /* Slightly adjusted padding */
+  border-radius: 5px;
+  margin: 0 5px;
+  text-transform: uppercase;
+  border: 2px solid #512da8; /* Slightly darker border for thickness */
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.search-btn:hover,
+.auth-btn:hover {
+  background-color: #512da8 !important; /* Darker purple on hover */
+}
+
+.search-container input {
+  padding: 8px;
+  font-size: 14px; /* Reduced font size for input field */
+  border: 2px solid #512da8;
+  border-radius: 5px;
+}
+
+.auth-container .btn {
+  font-weight: bold;
+  font-size: 14px;
+  border: 2px solid #512da8;
+}
+
+
+button:hover,
+.btn-primary:hover {
+  background-color: #311b92 !important; /* Even darker purple on hover */
+}
+
+/* Cards */
+.card {
+  background-color: #9c27b0 !important; /* Bright purple for cards */
+  color: #ffffff !important;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+/* Container for Content */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Sidebar Styling */
+.sidebar,
+.right-sidebar {
+  background-color: #6a1b9a !important; /* Slightly different purple for sidebars */
+  color: #ffffff !important;
+  padding: 20px;
+  height: 100vh; /* Full-height sidebars */
+  overflow-y: auto;
+}
+
+.sidebar a,
+.right-sidebar a {
+  color: #d1c4e9 !important;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sidebar a:hover,
+.right-sidebar a:hover {
+  color: #ffffff !important;
+}
+
+/* Role List */
+.role-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.role-card {
+  background-color: #7b1fa2 !important; /* A distinct purple for role cards */
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.role-card h2 {
+  margin-bottom: 10px;
+}
+
+.role-card .actions {
+  margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #311b92 !important; /* Dark footer */
+  color: #ffffff !important;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+/* Aligning the top bar */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+/* Styling for the buttons */
+.top-buttons {
+  display: flex;
+  gap: 15px; /* Spacing between buttons */
+}
+
+.top-button {
+  padding: 5px 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.top-button:hover {
+  background-color: #0056b3;
+}
